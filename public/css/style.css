@@ -1,0 +1,67 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.box{
+    width: 80%;
+    background-color: aqua;
+    box-shadow: 1rem 1rem black;
+    padding: 3rem;
+    border-radius: 2rem ;
+
+}
+.address-box{
+    background-color: #50ffaf;
+    box-shadow: 1rem 1rem black;
+    padding: 3rem;
+    border-radius: 2rem;
+    width: 70%;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.address-text-box{
+ 
+    text-align: center;
+    padding: 0.1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: #f8ff1d;
+    border-radius: 2rem;
+    box-shadow: .5rem .5rem black;
+    
+
+
+}
+#latlong-box{
+    display: none;
+}
+.flex-box{
+
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+}
+
+input{
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 1rem;
+}
+
+button{
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: greenyellow;
+    padding: 1rem;
+    font-size: x-large;
+    border-radius: 1rem;
+}
+
+.input-title{
+    font-size: larger;
+    font-style: italic;
+}
